@@ -1,0 +1,1 @@
+Web UI which queries web registry for stock quote that uses microservices (db-service) for quering database and communicates with another microservice(stock-service) which requests Yahoo Finance API to get real time stock quote prices.Also used zuul proxy for auto redirection and Load Balancing on Eureka Netflix Server
